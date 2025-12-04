@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+.search-wrapper {
+  min-width: 260px;
+}
+
+.reflection-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+/* Legacy example div */
+.myDivClass {
+  height: 50px;
+  width: 50px;
+  background-color: tomato;
+  border: dotted 2px green;
+  margin-left: 12em;
+  padding: 4px;
+}

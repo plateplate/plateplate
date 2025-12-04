@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Web Dev Course Completion",
+    "description": "Completed a full-term web development course with multiple front-end projects and a refactored dev profile app.",
+    "category": "Course",
+    "date": "Fall 2025",
+    "icon": "bi-mortarboard"
+  },
+  {
+    "title": "Git & GitHub Workflow",
+    "description": "Used branches, issues, milestones, and commits to manage work like a real-world dev team.",
+    "category": "Process",
+    "date": "2025",
+    "icon": "bi-git"
+  },
+  {
+    "title": "Accessibility & Testing",
+    "description": "Ran Nu, WAVE, and Lighthouse on my dev profile to reduce common accessibility and performance issues.",
+    "category": "A11y / QA",
+    "date": "2025",
+    "icon": "bi-universal-access-circle"
+  }
+]

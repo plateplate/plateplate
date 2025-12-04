@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>plateplate | Dev Profile</title>
+
+  <!-- Normalize + Bootstrap 5 -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="container-fluid bg-light">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">plateplate | Dev</a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="pages/blog.html">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#achievements">Achievements</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="reflection.html">Reflection</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+               href="https://github.com/plateplate"
+               target="_blank" rel="noopener">
+              <i class="bi bi-github"></i> GitHub Profile
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+               href="https://github.com/plateplate"
+               target="_blank" rel="noopener">
+              <i class="bi bi-github"></i> Source code
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+               href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fplateplate.github.io%2F"
+               target="_blank" rel="noopener">
+              Check validity
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+               href="https://wave.webaim.org/report#/https://plateplate.github.io/"
+               target="_blank" rel="noopener">
+              Check accessibility
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="py-5 text-center bg-white border-bottom mb-4">
+    <h1 class="display-5 fw-bold">Laine’s Dev Profile</h1>
+    <p class="lead mb-3">Web dev student • HTML • CSS • JavaScript • Bootstrap 5</p>
+    <p class="mb-0 text-muted">
+      This site showcases my projects, achievements, and what I’ve learned about web development.
+    </p>
+  </header>
+
+  <main class="container pb-5">
+
+    <!-- QUICK LINKS CARDS -->
+    <section class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-github me-1"></i> GitHub Profile</h5>
+            <p class="card-text">See all my repositories, commits, and activity.</p>
+            <a href="https://github.com/plateplate" class="card-link" target="_blank" rel="noopener">
+              Open GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-window-desktop me-1"></i> Live Dev Profile</h5>
+            <p class="card-text">You’re looking at it: this app is my live dev profile hosted on GitHub Pages.</p>
+            <a href="https://plateplate.github.io/" class="card-link" target="_blank" rel="noopener">
+              Open in new tab
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-journal-text me-1"></i> Knowledge Reflection</h5>
+            <p class="card-text">Read about my app’s infrastructure, architecture, and key takeaways.</p>
+            <a href="reflection.html" class="card-link">
+              Read reflection article
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEARCH + PROJECTS -->
+    <section id="projects" class="mb-5">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3 gap-2">
+        <div>
+          <h2 class="h4 mb-1">Projects</h2>
+          <p class="text-muted mb-0">Projects from this course and beyond, with links to live apps and code.</p>
+        </div>
+        <div class="search-wrapper">
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-search"></i></span>
+            <input type="text" id="projectSearch" class="form-control"
+                   placeholder="Search projects by title or tech...">
+          </div>
+        </div>
+      </div>
+
+      <div id="projectsRow" class="row g-4">
+        <!-- JS injects project cards here -->
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="mb-5">
+      <div class="mb-3">
+        <h2 class="h4 mb-1">Achievements</h2>
+        <p class="text-muted mb-0">Course milestones, skills, and learning accomplishments.</p>
+      </div>
+      <div id="achievementsRow" class="row g-4">
+        <!-- JS injects achievement cards here -->
+      </div>
+    </section>
+
+    <!-- LEGACY DEMO CARD (FROM ORIGINAL) -->
+    <section class="row mb-5">
+      <div class="col-md-6 offset-md-3">
+        <div class="card shadow-sm">
+          <div class="card-header">
+            <h4 class="card-title mb-0">Original BS5 Card Example</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">cards are cool</li>
+              <li class="list-group-item">cards are cool</li>
+              <li class="list-group-item">cards are cool</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-outline-primary"
+               href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php"
+               target="_blank" rel="noopener">
+              Read more about BS5 cards
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center bg-white border-top py-3">
+    <button id="btnClicky" type="button" class="btn btn-outline-dark mb-2">
+      click me, please!
+    </button>
+    <p class="small text-muted mb-0">
+      © <span id="year"></span> plateplate • A11y via Nu, WAVE, Lighthouse • Built with Bootstrap 5 & Fetch API
+    </p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Project Delta",
+    "role": "Front-end developer",
+    "description": "A course project focused on building a responsive web app with clean layout, Bootstrap components, and basic interactivity.",
+    "tech": ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    "appUrl": "https://plateplate.github.io/project-delta/",
+    "codeUrl": "https://github.com/plateplate/project-delta",
+    "image": ""
+  },
+  {
+    "title": "Project Charlie",
+    "role": "Collaborative project",
+    "description": "A team-built project hosted under edmullins, where I contributed to structure, styling, and front-end interactions.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "appUrl": "https://edmullins.github.io/ProjectCharlie/",
+    "codeUrl": "https://github.com/edmullins/ProjectCharlie",
+    "image": ""
+  },
+  {
+    "title": "Alpha Project",
+    "role": "Front-end developer",
+    "description": "An early portfolio-style project experimenting with layout, navigation, and component-based design using Bootstrap.",
+    "tech": ["HTML", "CSS", "Bootstrap"],
+    "appUrl": "https://plateplate.github.io/alpha-project/",
+    "codeUrl": "https://github.com/plateplate/alpha-project",
+    "image": ""
+  }
+]
