@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I’m a web dev student focusing on modern front-e
 ## 🌐 Live Developer Profile  
 
 My full developer profile site (built in this repo):  
-👉 **https://plateplate.github.io**
+👉 **https://plateplate.github.io/plateplate/**
 
 This site includes:
 
